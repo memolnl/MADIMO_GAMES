@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.LoginScreen">
+
+    <VideoView
+        android:id="@+id/vv_fondoLogin"
+        android:layout_width="522dp"
+        android:layout_height="887dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_pfp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:translationX="125dp"
+                app:srcCompat="@drawable/spawnicon" />
+
+            <ImageButton
+                android:id="@+id/im_marcoPfp"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:background="#00FFFFFF"
+                android:clickable="false"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:translationX="-100dp"
+                app:srcCompat="@drawable/frametrucaso"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/tb_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:ems="10"
+            android:fontFamily="@font/audiowide"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:textColor="#AB9FDA"
+            android:textColorHint="#AB9FDA"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/tb_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:fontFamily="@font/audiowide"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColor="#AB9FDA"
+            android:textColorHint="#AB9FDA"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#5942B8"
+            android:fontFamily="@font/audiowide"
+            android:text="INGRESAR"
+            android:textSize="25sp"
+            app:cornerRadius="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:translationY="15dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/audiowide"
+                android:text="¿No tienes una cuenta?"
+                android:textColor="#AB9FDA"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REGISTRATE"
+                android:textColor="#5942B7"
+                android:textStyle="bold"
+                android:translationX="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

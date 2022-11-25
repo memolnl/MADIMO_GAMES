@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.ProfileScreen">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fondoperfil" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_fotoProfile"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_weight="0"
+                android:scaleType="fitXY"
+                android:translationX="150dp"
+                app:srcCompat="@drawable/spawnicon" />
+
+            <ImageButton
+                android:id="@+id/im_marcoPfp2"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_weight="0"
+                android:background="#00FFFFFF"
+                android:clickable="false"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:translationX="-75dp"
+                app:srcCompat="@drawable/frametrucaso"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/btn_editarFoto"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="0"
+                android:alpha="0.65"
+                android:backgroundTint="@color/black"
+                android:scaleType="fitXY"
+                android:translationX="-150dp"
+                android:translationY="-25dp"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_nickProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:gravity="center"
+            android:text="UserNick"
+            android:textColor="#56FAFA"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:gravity="center"
+            android:text="MEJOR PUNTUACION"
+            android:textColor="#D4DEFD"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:translationY="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            android:translationY="15dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="#010617"
+                android:fontFamily="@font/audiowide"
+                android:gravity="center"
+                android:text="Ordenamiento"
+                android:textColor="#56F9F9"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationY="20dp" />
+
+            <TextView
+                android:id="@+id/txt_scoreOrdenamiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:fontFamily="@font/audiowide"
+                android:gravity="center"
+                android:text="0:0:0"
+                android:textColor="#56F9F9"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationY="40dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="#010617"
+                android:fontFamily="@font/audiowide"
+                android:gravity="center"
+                android:text="Gato"
+                android:textColor="#56F9F9"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationY="60dp" />
+
+            <TextView
+                android:id="@+id/txt_scoreGato"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:fontFamily="@font/audiowide"
+                android:gravity="center"
+                android:text="0:0:0"
+                android:textColor="#56F9F9"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationY="80dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="#010617"
+                android:fontFamily="@font/audiowide"
+                android:gravity="center"
+                android:text="BreakOut"
+                android:textColor="#56F9F9"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationY="100dp" />
+
+            <TextView
+                android:id="@+id/txt_scoreBreakOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:fontFamily="@font/audiowide"
+                android:gravity="center"
+                android:text="0:0:0"
+                android:textColor="#56F9F9"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationY="120dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:translationY="20dp"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/btn_volver"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_weight="0"
+                android:backgroundTint="#010617"
+                android:fontFamily="@font/audiowide"
+                android:text="CERRAR SESION"
+                android:textAlignment="center"
+                android:textColor="#56F9F9"
+                android:textSize="23sp"
+                app:cornerRadius="15dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

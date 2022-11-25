@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "1008865752936",
+    "firebase_url": "https://madimologin-default-rtdb.firebaseio.com",
+    "project_id": "madimologin",
+    "storage_bucket": "madimologin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008865752936:android:e6520923dc298615f288dd",
+        "android_client_info": {
+          "package_name": "com.example.juegoprogramacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008865752936-31dsllfuqv2jet4o5v7bpkc10tg09htk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.juegoprogramacion",
+            "certificate_hash": "022773f6af758a6ef0fdc14c1aaf09d6f5e545c1"
+          }
+        },
+        {
+          "client_id": "1008865752936-io92ood0eiomc5hdo8d0mlandu3bmq5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYVilWQaewM79nBnNvUvB9JZNs1eov7No"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008865752936-io92ood0eiomc5hdo8d0mlandu3bmq5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008865752936:android:bec43363d7f06183f288dd",
+        "android_client_info": {
+          "package_name": "com.example.madimo_games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008865752936-5piq4ofuc4qs073jpn6jahecv6ufft2s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.madimo_games",
+            "certificate_hash": "022773f6af758a6ef0fdc14c1aaf09d6f5e545c1"
+          }
+        },
+        {
+          "client_id": "1008865752936-io92ood0eiomc5hdo8d0mlandu3bmq5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYVilWQaewM79nBnNvUvB9JZNs1eov7No"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008865752936-io92ood0eiomc5hdo8d0mlandu3bmq5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
